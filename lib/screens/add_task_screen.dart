@@ -1,4 +1,6 @@
 
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class AddTaskScreen extends StatelessWidget {
@@ -27,7 +29,7 @@ class AddTaskScreen extends StatelessWidget {
           TextButton(onPressed: (){},
            child: Text('Add',
            style: TextStyle(
-             color: Colors.indigo[900],
+             color: Colors.green[900],
              ),
            ),
            style: TextButton.styleFrom(
